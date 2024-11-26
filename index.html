@@ -6,7 +6,158 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Nerdy WebPage</title>
 </head>
-<body>
-    <H1 class="font-serif ">Nerdy</H1>
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto px-44 ">
+        <!-- Navbar -->
+        <nav class="flex items-center justify-between py-6 mt-6">
+            <h1 class="font-bold text-3xl text-lime-500 hover:cursor-pointer">Nerdy</h1>
+            <ul class="flex space-x-8 text-gray-700 font-medium">
+                <li><a href="#" class="hover:text-lime-500">Home</a></li>
+                <li><a href="#" class="hover:text-lime-500">Projects</a></li>
+                <li><a href="#" class="hover:text-lime-500">About</a></li>
+                <li><a href="#" class="hover:text-lime-500">Contact</a></li>
+            </ul>
+            <button class="bg-[#D8FB78] px-7 py-2.5 rounded-3xl font-bold text-gray-800 hover:bg-lime-500">
+                Buy Now
+            </button>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="flex items-center justify-between px-12 pl-16 py-14 bg-gradient-to-r from-gray-200 to-yellow-200 shadow-lg rounded-3xl mt-6">
+            <!-- Left Content -->
+            <div class="w-1/2">
+                <h1 class="text-5xl font-bold text-gray-800 leading-snug">
+                    Designed to effortlessly combine <span class="text-lime-400">style</span> and functionality.
+                </h1>
+                <p class="mt-4 text-lg text-gray-600">
+                    Unlock your potential with Phitron's Online Judge, a dynamic platform for honing your coding skills through a diverse range of challenges for all experience levels.
+                </p>
+                <button class="bg-[#D8FB78] px-7 py-2.5 mt-4 rounded-3xl font-bold text-gray-800 hover:bg-lime-500">
+                    Explore Deal
+                </button>
+            </div>
+            <!-- Right Image -->
+            <div class="w-1/2 flex justify-center">
+                <img src="Images/Rectangle 17854.png" alt="Fashion Model">
+            </div>
+        </section>
+
+        <!-- Product Section -->
+        <section class="py-28 ">
+            <div>
+                <h2 class="text-3xl font-bold text-center text-black">Best Selling Products</h2>
+                <p class="text-center font-semibold text-gray-500 mt-2 w-[800px] mx-auto">
+                    Unlock your potential with Phitron's Online Judge, a dynamic platform for honing your coding skills through a diverse range of challenges for all experience levels.
+                </p>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="grid grid-cols-3 gap-8 mt-8">
+                <!-- Product Card -->
+                <div class="bg-white shadow-md rounded-2xl p-5 w-full">
+                    <img src="Images/model-demonstrating-winter-cloths 1.png" alt="Product 1" class="bg-gray-100  rounded-2xl w-full">
+                    <h3 class="text-lg font-semibold text-gray-800 mt-4">Balenciaga Floral-Print Silk Shirt</h3>
+                    <p class="text-gray-500 font-semibold">$1644.00</p>
+                    <button class="bg-[#c1f82b] px-7 py-2.5 rounded-3xl border-2 border-black font-bold text-gray-800 hover:bg-lime-500 w-full mt-3">
+                        Buy Now
+                    </button>
+                    <div class="flex items-center">
+                        <button class="mt-4 mr-2 w-4/5 bg-white text-black py-2 rounded-3xl border-2 border-gray-300 hover:border-gray-500">
+                            Add to Cart
+                        </button>
+                        <svg class="w-11 h-11 p-1.5 rounded-full border-2 border-[#FF582F] mt-4 hover:bg-[#FF582F] cursor-pointer " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                    </div>  
+                </div>
+
+                <div class="bg-white shadow-md rounded-2xl p-5 w-full">
+                    <img src="Images/model-demonstrating-winter-cloths 1.png" alt="Product 2" class="bg-gray-100  rounded-2xl w-full">
+                    <h3 class="text-lg font-semibold text-gray-800 mt-4">Balenciaga Floral-Print Silk Shirt</h3>
+                    <p class="text-gray-500 font-semibold">$1644.00</p>
+                    <button class="bg-[#c1f82b] px-7 py-2.5 rounded-3xl border-2 border-black font-bold text-gray-800 hover:bg-lime-500 w-full mt-3">
+                        Buy Now
+                    </button>
+                    <div class="flex items-center">
+                        <button class="mt-4 mr-2 w-4/5 bg-white text-black py-2 rounded-3xl border-2 border-gray-300 hover:border-gray-500">
+                            Add to Cart
+                        </button>
+                        <svg class="w-11 h-11 p-1.5 bg-white rounded-full border-2 border-gray-500 mt-4 hover:bg-[#FF582F] cursor-pointer " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                    </div>  
+                </div>
+                
+                <div class="bg-white shadow-md rounded-2xl p-5 w-full">
+                    <img src="Images/model-demonstrating-winter-cloths 1.png" alt="Product 3" class="bg-gray-100  rounded-2xl w-full">
+                    <h3 class="text-lg font-semibold text-gray-800 mt-4">Balenciaga Floral-Print Silk Shirt</h3>
+                    <p class="text-gray-500 font-semibold">$1644.00</p>
+                    <button class="bg-[#c1f82b] px-7 py-2.5 rounded-3xl border-2 border-black font-bold text-gray-800 hover:bg-lime-500 w-full mt-3">
+                        Buy Now
+                    </button>
+                    <div class="flex items-center">
+                        <button class="mt-4 mr-2 w-4/5 bg-white text-black py-2 rounded-3xl border-2 border-gray-300 hover:border-gray-500">
+                            Add to Cart
+                        </button>
+                        <svg class="w-11 h-11 p-1.5 bg-white rounded-full border-2 border-gray-500 mt-4 hover:bg-[#FF582F] cursor-pointer " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                    </div>  
+                </div>
+                
+                <div class="bg-white shadow-md rounded-2xl p-5 w-full">
+                    <img src="Images/model-demonstrating-winter-cloths 1.png" alt="Product 4" class="bg-gray-100  rounded-2xl w-full">
+                    <h3 class="text-lg font-semibold text-gray-800 mt-4">Balenciaga Floral-Print Silk Shirt</h3>
+                    <p class="text-gray-500 font-semibold">$1644.00</p>
+                    <button class="bg-[#c1f82b] px-7 py-2.5 rounded-3xl border-2 border-black font-bold text-gray-800 hover:bg-lime-500 w-full mt-3">
+                        Buy Now
+                    </button>
+                    <div class="flex items-center">
+                        <button class="mt-4 mr-2 w-4/5 bg-white text-black py-2 rounded-3xl border-2 border-gray-300 hover:border-gray-500">
+                            Add to Cart
+                        </button>
+                        <svg class="w-11 h-11 p-1.5 bg-white rounded-full border-2 border-gray-500 mt-4 hover:bg-[#FF582F] cursor-pointer " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                    </div>  
+                </div>
+                
+                <div class="bg-white shadow-md rounded-2xl p-5 w-full">
+                    <img src="Images/model-demonstrating-winter-cloths 1.png" alt="Product 5" class="bg-gray-100  rounded-2xl w-full">
+                    <h3 class="text-lg font-semibold text-gray-800 mt-4">Balenciaga Floral-Print Silk Shirt</h3>
+                    <p class="text-gray-500 font-semibold">$1644.00</p>
+                    <button class="bg-[#c1f82b] px-7 py-2.5 rounded-3xl border-2 border-black font-bold text-gray-800 hover:bg-lime-500 w-full mt-3">
+                        Buy Now
+                    </button>
+                    <div class="flex items-center">
+                        <button class="mt-4 mr-2 w-4/5 bg-white text-black py-2 rounded-3xl border-2 border-gray-300 hover:border-gray-500">
+                            Add to Cart
+                        </button>
+                        <svg class="w-11 h-11 p-1.5 bg-white rounded-full border-2 border-gray-500 mt-4 hover:bg-[#FF582F] cursor-pointer " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                    </div>  
+                </div>
+                
+                <div class="bg-white shadow-md rounded-2xl p-5 w-full">
+                    <img src="Images/model-demonstrating-winter-cloths 1.png" alt="Product 6" class="bg-gray-100  rounded-2xl w-full">
+                    <h3 class="text-lg font-semibold text-gray-800 mt-4">Balenciaga Floral-Print Silk Shirt</h3>
+                    <p class="text-gray-500 font-semibold">$1644.00</p>
+                    <button class="bg-[#c1f82b] px-7 py-2.5 rounded-3xl border-2 border-black font-bold text-gray-800 hover:bg-lime-500 w-full mt-3">
+                        Buy Now
+                    </button>
+                    <div class="flex items-center">
+                        <button class="mt-4 mr-2 w-4/5 bg-white text-black py-2 rounded-3xl border-2 border-gray-300 hover:border-gray-500">
+                            Add to Cart
+                        </button>
+                        <svg class="w-11 h-11 p-1.5 bg-white rounded-full border-2 border-gray-500 mt-4 hover:bg-[#FF582F] cursor-pointer " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                    </div>  
+                </div>
+
+            </div>
+        </section>
+    </div>
 </body>
 </html>
