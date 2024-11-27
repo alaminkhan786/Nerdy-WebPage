@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <title>Nerdy WebPage</title>
 </head>
 <body class="bg-gray-100 font-sans">
-    <div class="container mx-auto px-44 ">
+    <div class="container mx-auto px-44">
         <!-- Navbar -->
-        <nav class="flex items-center justify-between py-6 mt-6">
+        <nav id="home" class="flex items-center justify-between py-6 mt-6">
             <h1 class="font-bold text-3xl text-lime-500 hover:cursor-pointer">Nerdy</h1>
             <ul class="flex space-x-8 text-gray-700 font-medium">
-                <li><a href="#" class="hover:text-lime-500">Home</a></li>
+                <li><a href="home" class="hover:text-lime-500">Home</a></li>
                 <li><a href="#" class="hover:text-lime-500">Projects</a></li>
                 <li><a href="#" class="hover:text-lime-500">About</a></li>
                 <li><a href="#" class="hover:text-lime-500">Contact</a></li>
@@ -157,7 +158,37 @@
                 </div>
 
             </div>
-        </section>
+        </section>        
     </div>
+
+    <!-- footer section -->
+
+    <footer class="container flex flex-col items-center justify-center px-4 text-center bg-gray-200 py-8 w-full h-[400px]  mx-auto">
+
+        <h2 class="text-5xl font-bold text-gray-800 mb-4">Nerdy</h2>
+
+        <ul class="flex justify-center space-x-14 my-8">
+            <li><a href="home" class="text-gray-600 hover:text-lime-500">Home</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-lime-500">Projects</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-lime-500">About</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-lime-500">Contact</a></li>
+        </ul>
+
+        <!-- Social Media Links -->
+        <div class="flex justify-center space-x-4 mb-6">
+            <a href="#" class="text-blue-600 hover:text-lime-500"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="text-black hover:text-lime-500"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="#" class="text-blue-600 hover:text-lime-500"><i class="fa-brands fa-linkedin"></i></i></a>
+            <a href="#" class="text-red-500 hover:text-lime-500 w-10 h-10"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+        <div class="flex justify-center w-[500px]">
+            <input type="email" placeholder="Enter your email address" class=" rounded-full border border-gray-400 px-4 py-2 mr-4" />
+
+            <button class="bg-lime-500 text-black font-bold  px-6 py-2 rounded-full hover:bg-lime-600">
+                Subscribe
+            </button>
+        </div>
+    </footer>
 </body>
 </html>
